@@ -1,0 +1,11 @@
+{
+  "short_name": "Portfolio",
+  "name": "Amirali Monjar's Portfolio",
+  "icons": [
+    "%PUBLIC_URL%/me.ico"
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
