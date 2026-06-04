@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting...</title>
+    <script>
+      // GitHub Pages SPA redirect solution
+      // When a user navigates directly to a route (e.g., /blog/lightweight_cpp_display),
+      // GitHub Pages serves this 404.html. We capture the path and redirect to index.html
+      // with the path encoded in the URL hash or query parameter.
+
+      // Get the current path
+      const path = window.location.pathname;
+
+      // Redirect to index.html with the path preserved
+      // We use sessionStorage to pass the original path to the app
+      sessionStorage.setItem('redirectPath', path + window.location.search);
+
+      // Redirect to the root
+      window.location.replace('/');
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
+</html>
