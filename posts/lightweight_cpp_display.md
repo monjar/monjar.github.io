@@ -1,3 +1,10 @@
+---
+title: Drawing a Face on Almost Nothing: Building Mochiro's Lightweight Display Driver
+date: 2024-12-15
+excerpt: Building a lightweight C++ display driver for a robot companion that runs on constrained hardware, from Raspberry Pi to microcontrollers.
+tags: C++, OpenGL, Embedded Systems, Robotics
+---
+
 # Drawing a Face on Almost Nothing: Building Mochiro's Lightweight Display Driver
 
 Mochiro is my little robot companion. I wanted it to have an expressive face — eyes that blink, squint, and go wide — running on a small single-board computer, with parts eventually pushed down onto even tinier microcontrollers. Animating a face on a device with the memory of a 1990s desktop is the whole story of this driver.
