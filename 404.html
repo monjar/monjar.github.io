@@ -14,7 +14,7 @@
 
       // Redirect to index.html with the path preserved
       // We use sessionStorage to pass the original path to the app
-      sessionStorage.setItem('redirectPath', path + window.location.search);
+      sessionStorage.setItem('redirectPath', path + window.location.search + window.location.hash);
 
       // Redirect to the root
       window.location.replace('/');

@@ -1,0 +1,62 @@
+[
+  {
+    "n": 1,
+    "title": "Second-Order Dynamics",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/01-second-order-dynamics/"
+  },
+  {
+    "n": 2,
+    "title": "Analytic IK: Two-Bone & Look-At",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/02-analytic-ik/"
+  },
+  {
+    "n": 3,
+    "title": "Iterative IK Lab",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/03-iterative-ik/"
+  },
+  {
+    "n": 4,
+    "title": "XPBD Ropes, Tails & Cloth",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/04-xpbd/"
+  },
+  {
+    "n": 5,
+    "title": "Procedural Hexapod",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/05-hexapod/"
+  },
+  {
+    "n": 6,
+    "title": "Procedural Quadruped",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/06-quadruped/"
+  },
+  {
+    "n": 7,
+    "title": "Procedural Biped",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/07-biped/"
+  },
+  {
+    "n": 8,
+    "title": "Foot IK over Mocap",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/08-foot-ik/"
+  },
+  {
+    "n": 9,
+    "title": "Motion Matching",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/09-motion-matching/"
+  },
+  {
+    "n": 10,
+    "title": "Active Ragdoll",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/10-active-ragdoll/"
+  },
+  {
+    "n": 11,
+    "title": "GPU Procedural Crowds",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/11-gpu-crowds/"
+  },
+  {
+    "n": 12,
+    "title": "Evolved Virtual Creatures",
+    "url": "https://monjar.dev/Advanced-Procedural-Animations-Study/demos/12-evolved-creatures/"
+  }
+]

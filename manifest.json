@@ -1,11 +1,9 @@
 {
-  "short_name": "Portfolio",
-  "name": "Amirali Monjar's Portfolio",
-  "icons": [
-    "%PUBLIC_URL%/me.ico"
-  ],
-  "start_url": ".",
+  "short_name": "Monjar",
+  "name": "The Codex of Monjar",
+  "icons": [{ "src": "/images/me.jpeg", "sizes": "192x192", "type": "image/jpeg" }],
+  "start_url": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#ede0bf",
+  "background_color": "#ede0bf"
 }

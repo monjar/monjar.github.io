@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      /* Pick the palette before first paint: stored choice, else the OS. */
+      (function () {
+        try {
+          var m = localStorage.getItem("monjar-fan-mode");
+          if (m !== "dark" && m !== "light")
+            m = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          var d = document.documentElement;
+          d.dataset.palette = m === "dark" ? "forest" : "royal";
+          d.style.colorScheme = m;
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="icon" href="/images/me.ico" />
+    <link rel="apple-touch-icon" href="/images/me.jpeg" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#ede0bf" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1410" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="description"
+      content="Amirali Monjar — software engineer and game developer. Robots, renderers, shaders and creatures, in the manner of an illuminated codex."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="The Codex of Monjar" />
+    <meta property="og:title" content="MelodyMuse · The Codex of Monjar" />
+    <meta
+      property="og:description"
+      content="Conjure music in real time with a wave of your hand. A VR prototype of a wearable that lets you conjure music in real time with the aid of machine intelligence."
+    />
+    <meta property="og:image" content="https://monjar.dev/og.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>MelodyMuse · The Codex of Monjar</title>
+    <script type="module" crossorigin src="/assets/index-CnFGUmPh.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/jsx-runtime-B4UN2VIk.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CdrpxhSq.css">
+      <link rel="canonical" href="https://monjar.dev/works/melodymuse/" />
+    <meta property="og:url" content="https://monjar.dev/works/melodymuse/" />
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to read the codex.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
